@@ -25,8 +25,8 @@ SpaceObject получил трех наследников, с которыми 
 - [Star](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyClasses/Star.java) - наследник класса SpaceObject, имеет поле 'спектральный класс';
 
 Пример содержит интерфейсы:
-- [SpaceList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/MyInterfaces/SpaceList.java) - интерфейс, который будут имплементировать наши самописные коллекции типа List и LinkedList;
-- [SpaceSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/MyInterfaces/SpaceSet.java) - интерфейс, который будет имплементировать наша самописная коллекция HashSet;
+- [SpaceList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/SpaceList.java) - интерфейс, который будут имплементировать наши самописные коллекции типа List и LinkedList;
+- [SpaceSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/SpaceSet.java) - интерфейс, который будет имплементировать наша самописная коллекция HashSet;
 - [SpaceObjectCollection](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/SpaceObjectCollection.java) - супер-интерфейс для всех коллекций;
 
 Пример содержит классы реализующие идею коллекций:
