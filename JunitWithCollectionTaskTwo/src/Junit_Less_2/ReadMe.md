@@ -19,14 +19,14 @@ SpaceObject получил трех наследников, с которыми 
 - Шаг 2 - тестируем написанный код при помощи Junit 4 (про 5 версию позже);
 
 Пример содержит классы:
-- [SpaceObject](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/JunitWithCollectionTaskTwo/MyClasses/SpaceObject.java) - класс для создания объектов 'Космическое тело', которые мы будем добавлять в коллекции.
+- [SpaceObject](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyClasses/SpaceObject.java) - класс для создания объектов 'Космическое тело', которые мы будем добавлять в коллекции.
 - [Asteroid](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyClasses/Asteroid.java) - наследник класса SpaceObject, не имеет особых полей;
 - [Planet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyClasses/Planet.java) - наследник класса SpaceObject, имеет поле 'количество спутников';
 - [Star](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyClasses/Star.java) - наследник класса SpaceObject, имеет поле 'спектральный класс';
 
 Пример содержит интерфейсы:
-- [SpaceList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/JunitWithCollectionTaskTwo/MyInterfaces/SpaceList.java) - интерфейс, который будут имплементировать наши самописные коллекции типа List и LinkedList;
-- [SpaceSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/JunitWithCollectionTaskTwo/MyInterfaces/SpaceSet.java) - интерфейс, который будет имплементировать наша самописная коллекция HashSet;
+- [SpaceList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/MyInterfaces/SpaceList.java) - интерфейс, который будут имплементировать наши самописные коллекции типа List и LinkedList;
+- [SpaceSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/MyInterfaces/SpaceSet.java) - интерфейс, который будет имплементировать наша самописная коллекция HashSet;
 - [SpaceObjectCollection](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/SpaceObjectCollection.java) - супер-интерфейс для всех коллекций;
 
 Пример содержит классы реализующие идею коллекций:
