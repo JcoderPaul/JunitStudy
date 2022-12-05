@@ -30,13 +30,14 @@ SpaceObject получил трех наследников, с которыми 
 - [SpaceObjectCollection](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MyInterfaces/SpaceObjectCollection.java) - супер-интерфейс для всех коллекций;
 
 Пример содержит классы реализующие идею коллекций:
-- [MySpaceList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/JunitWithCollectionTaskTwo/MySimpleList/MySpaceList/MySpaceList.java) - простой лист или коллекция ArrayList;
-- [MySpaceLinkedList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/JunitWithCollectionTaskTwo/MySimpleLinkedList/MySpaceLinkedList/MySpaceLinkedList.java) - простой двусвязный список, наша реализация LinkedList;
-- [MySpaceHashSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/JunitWithCollectionTaskTwo/MySimpleHashSet/MySpaceHashSet/MySpaceHashSet.java) - простая коллекция неповторяющихся элементов Set или HashSet;
+- [MySpaceArrayList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MySimpleArrayList/MySpaceList/MySpaceArrayList.java) - простой лист или коллекция ArrayList;
+- [MySpaceLinkedList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MySimpleLinkedList/MySpaceLinkedList/MySpaceLinkedList.java) - простой двусвязный список, наша реализация LinkedList;
+- [MySpaceHashSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/main/java/MySimpleHashSet/MySpaceHashSet/MySpaceHashSet.java) - простая коллекция неповторяющихся элементов Set или HashSet;
 
 Пример содержит тесты:
-- [SpaceListTest](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/test/java/MyInterfaces/SpaceListTest.java) - набор тестов для проверки работоспособности методов коллекции MySpaceList;
+- [SpaceArrayListTest](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/test/java/MyInterfaces/SpaceArrayListTest.java) - набор тестов для проверки работоспособности методов коллекции MySpaceList;
 - [SpaceLinkedListTest](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/test/java/MyInterfaces/SpaceLinkedListTest.java) - набор тестов для проверки работоспособности методов коллекции MySpaceLinkedList;
 - [SpaceSetTest](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/test/java/MyInterfaces/SpaceSetTest.java) - набор тестов для проверки работоспособности методов коллекции MySpaceHashSet;
+- [SpaceObjectCollectionTest](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskTwo/src/Junit_Less_2/test/java/MyInterfaces/SpaceObjectCollectionTest.java) - тестирование отдельных методов супер-интерфейса.
 
 
