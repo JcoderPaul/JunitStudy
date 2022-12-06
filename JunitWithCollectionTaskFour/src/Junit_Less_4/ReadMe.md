@@ -11,22 +11,31 @@
 - Шаг 2 - тестируем написанный код при помощи Junit 4;
 
 Пример содержит классы:
-- [SpaceObject](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MyClasses/SpaceObject.java) - класс для создания объектов 'Космическое тело', которые мы будем добавлять в коллекции.
-- [Asteroid](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MyClasses/Asteroid.java) - наследник класса SpaceObject, не имеет особых полей;
-- [Planet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MyClasses/Planet.java) - наследник класса SpaceObject, имеет поле 'количество спутников';
-- [Star](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MyClasses/Star.java) - наследник класса SpaceObject, имеет поле 'спектральный класс';
+- [SpaceObject](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/main/java/MyClasses/SpaceObject/SpaceObject.java) - класс для создания объектов 'Космическое тело', которые 
+мы будем добавлять в коллекции. Объекты данного класса и его 
+наследники станут 'value' вторым объектом в паре <key, value> 
+хранящихся в коллекции Map; 
+- [Asteroid](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/main/java/MyClasses/SpaceObject/Asteroid.java) - наследник класса SpaceObject, не имеет особых полей;
+- [Planet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/main/java/MyClasses/SpaceObject/Planet.java) - наследник класса SpaceObject, имеет поле 'количество спутников';
+- [Star](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/main/java/MyClasses/SpaceObject/Star.java) - наследник класса SpaceObject, имеет поле 'спектральный класс';
+
+- [Discoverer](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/main/java/MyClasses/Discoverer.java) - класс 'первооткрыватель' для нашей коллекции Map, объекты 
+этого класса будут ключами key. Поля данного класса помечены 
+как private final, что в определенной степени застрахует нас 
+от потери данных при попытке изменить значения полей из которых 
+рассчитывается HashCode. Поскольку смена даже одного поля приведет 
+к смене HashCode, а следовательно неверному расчету местоположения 
+в хэш таблице и всех дальнейших проблем с поиском хранимых данных.
 
 Пример содержит интерфейсы:
-- [SpaceList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MyInterfaces/SpaceList.java) - интерфейс, который будут имплементировать наши самописные коллекции типа List и LinkedList;
-- [SpaceSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MyInterfaces/SpaceSet.java) - интерфейс, который будет имплементировать наша самописная коллекция HashSet;
-- [SpaceObjectCollection](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MyInterfaces/SpaceObjectCollection.java) - супер-интерфейс для всех коллекций;
+- [SpaceObjectMap](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/main/java/MyInterfaces/SpaceObjectMap.java) - интерфейс описывает возможности нашей будущей коллекции Map;
 
 Пример содержит классы реализующие идею коллекций:
-- [MySpaceArrayList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MySimpleArrayList/MySpaceList/MySpaceArrayList.java) - простой лист или коллекция ArrayList;
-- [MySpaceLinkedList](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MySimpleLinkedList/MySpaceLinkedList/MySpaceLinkedList.java) - простой двусвязный список, наша реализация LinkedList;
-- [MySpaceHashSet](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/main/java/MySimpleHashSet/MySpaceHashSet/MySpaceHashSet.java) - простая коллекция неповторяющихся элементов Set или HashSet;
+- [SpaceObjectHashMap](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/main/java/MyCollectionMap/SpaceObjectHashMap.java) - простая коллекция имплементирующая 
+интерфейс SpaceObjectMap и реализующая его методы, аналог 
+HashMap существующий в готовой библиотеке Java;
 
 Пример содержит тесты:
-- [SpaceObjectCollectionTest](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskThree/src/Junit_Less_3/test/java/MyInterfaces/SpaceObjectCollectionTest.java) - тестирование методов супер-интерфейса в котором задействован Iterator.
+- [SpaceObjectHashMapTest](https://github.com/JcoderPaul/JunitStudy/blob/master/JunitWithCollectionTaskFour/src/Junit_Less_4/test/java/MyCollectionMap/SpaceObjectHashMapTest.java) - тестирование методов интерфейса SpaceObjectMap.
 
 
