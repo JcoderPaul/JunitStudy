@@ -13,8 +13,8 @@ public interface SpaceObjectQueue extends SpaceObjectCollection{
     boolean add(SpaceObject spaceObject); // Добавить элемент в очередь
     SpaceObject peek(); // Возвращает без удаления элемент из начала очереди
     SpaceObject poll(); // Возвращает с удалением элемент из начала очереди.
-    SpaceObject get(int index); // Получить элемент списка по индексу
-    boolean removeAt(int index); // Удалить элемент по индексу
+    SpaceObject get(int index); // Получить элемент очереди по индексу (неспецифический метод)
+    boolean removeAt(int index); // Удалить элемент по индексу (неспецифический метод)
     int size(); // Определяем размер нашей очереди
     void clear(); // Полностью чистим нашу очередь
     SpaceObject element(); // Возвращает, но не удаляет, элемент из начала очереди.
