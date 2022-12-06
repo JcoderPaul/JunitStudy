@@ -1,14 +1,28 @@
 package MyInterfaces;
 
-import MyClasses.Asteroid;
-import MyClasses.SpaceObject;
+import MyClasses.*;
 import MySimpleLinkedList.MySpaceQueue.MySpaceObjectQueue;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+/*
+Если наследоваться от junit.framework.TestCase, т.е. сделать текущий
+тестовый класс SpaceObjectCollectionTest extends TestCase, то методы
+с параметрами в аннотации, например:
+--------------------------------------------------------------------
+@Test(expected = NoSuchElementException.class)
+    public void testElement_IfQueueIsEmptyThrowsAnException()
+--------------------------------------------------------------------
+будут при верной сработке возвращать провал.
+Версии Junit3,Junit4 и Junit5 хоть и похожи, имеют некие отличия.
 
+Используем вариант без импорта и наследования:
+- import junit.framework.TestCase;
+используем вариант с импортом:
+- import static org.junit.Assert.*;
+*/
 import static org.junit.Assert.*;
 
 /*
