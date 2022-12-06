@@ -95,3 +95,4 @@ JUnit позволяет в любой момент быстро убедить�
 - [JunitWithCollectionTaskTwo](https://github.com/JcoderPaul/JunitStudy/tree/master/JunitWithCollectionTaskTwo) - чуть усложненная реализация тех же коллекций;
 - [JunitWithCollectionTaskThree](https://github.com/JcoderPaul/JunitStudy/tree/master/JunitWithCollectionTaskThree) - те же коллекции, но уже реализующие Iterable;
 - [JunitWithCollectionTaskFour](https://github.com/JcoderPaul/JunitStudy/tree/master/JunitWithCollectionTaskFour) - простая реализация коллекции HashMap;
+- [JunitWithCollectionTaskFive](https://github.com/JcoderPaul/JunitStudy/tree/master/JunitWithCollectionTaskFive) - простая реализация коллекции Queue;
